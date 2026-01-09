@@ -1,24 +1,24 @@
- {
+{
     "@context": [
         "https://www.w3.org/ns/did/v1",
         "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
     ],
-    "id": "did:web:raw.githubusercontent.com:lucasmorales18:id-acuratio-v2:refs:heads:main",
+    "id": "did:web:lucasmorales18.github.io:id-acuratio-v2",
     "verificationMethod": [
         {
-            "id": "did:web:raw.githubusercontent.com:lucasmorales18:id-acuratio-v2:refs:heads:main#key-1",
+            "id": "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020",
             "type": "JsonWebKey2020",
             "publicKeyJwk": {
                 "kty": "RSA",
                 "n": "wnVUqyIEcoHbmq12fLzVg2jHeG8Wo5VpofCkzAqT85Ng5lvwVkA1NezBc-hLUt8MGAo05joF74t0JKXmAT9v91fevRHcfDCrQQoHVgJaDtNp1RpUX4UG_fHf7FZSOz90TFquvWTC3h94bR_rei9H9OgdlewbtX5PAB_OheQ2gA5n-x4bEN5m2Q4S6mE31l35ZjVPDFHX_Y-QuwYTWk2itv8GLkPThEbr0gJbtEo_1fRLgHU_zsp1LGfMk2ccWP3VKxhwhdLi3pm_pxrjdcwEEtQ3NYLLQecCh98YRYtwxo3spGz2JUmHUAl_STimyDau6WCzjyRk6efxICpRefgnHQ",
                 "e": "AQAB",
-                "kid": "OpDpA6DiKyjNPiByJGBIQWTvMm51GXB6-3B5QWf48fw",
+                "kid": "#X509-JWK2020",
                 "alg": "RS256",
-                "x5u": "https://raw.githubusercontent.com/lucasmorales18/id-acuratio-v2/refs/heads/main/public-key.pem"
+                "x5u": "https://lucasmorales18.github.io/id-acuratio-v2/public-key.pem"
             }
         }
     ],
     "assertionMethod": [
-        "did:web:raw.githubusercontent.com:lucasmorales18:id-acuratio-v2:refs:heads:main#key-1"
+        "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020"
     ]
 }
