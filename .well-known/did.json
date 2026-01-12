@@ -15,7 +15,7 @@
         "e": "AQAB",
         "kid": "X509-JWK2020",
         "alg": "RS256",
-        "x5u": "https://lucasmorales18.github.io/id-acuratio-v2/x509CertificateChain.pem"
+        "x5u": "https://lucasmorales18.github.io/id-acuratio-v2/.well-known/x509CertificateChain.pem"
       }
     }
   ],
