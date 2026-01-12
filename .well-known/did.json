@@ -1,24 +1,25 @@
 {
-    "@context": [
-        "https://www.w3.org/ns/did/v1",
-        "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
-    ],
-    "id": "did:web:lucasmorales18.github.io:id-acuratio-v2",
-    "verificationMethod": [
-        {
-            "id": "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020",
-            "type": "JsonWebKey2020",
-            "publicKeyJwk": {
-                "kty": "RSA",
-                "n": "wnVUqyIEcoHbmq12fLzVg2jHeG8Wo5VpofCkzAqT85Ng5lvwVkA1NezBc-hLUt8MGAo05joF74t0JKXmAT9v91fevRHcfDCrQQoHVgJaDtNp1RpUX4UG_fHf7FZSOz90TFquvWTC3h94bR_rei9H9OgdlewbtX5PAB_OheQ2gA5n-x4bEN5m2Q4S6mE31l35ZjVPDFHX_Y-QuwYTWk2itv8GLkPThEbr0gJbtEo_1fRLgHU_zsp1LGfMk2ccWP3VKxhwhdLi3pm_pxrjdcwEEtQ3NYLLQecCh98YRYtwxo3spGz2JUmHUAl_STimyDau6WCzjyRk6efxICpRefgnHQ",
-                "e": "AQAB",
-                "kid": "#X509-JWK2020",
-                "alg": "RS256",
-                "x5u": "https://lucasmorales18.github.io/id-acuratio-v2/public-key.pem"
-            }
-        }
-    ],
-    "assertionMethod": [
-        "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020"
-    ]
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:lucasmorales18.github.io:id-acuratio-v2",
+  "verificationMethod": [
+    {
+      "id": "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020",
+      "type": "JsonWebKey",
+      "controller": "did:web:lucasmorales18.github.io:id-acuratio-v2",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "xLlM2uvIFbe_2ToNpEZlQ-p9niefcQMpPRNrU3WGjpXhTO9WWkQRHIzDk9G69iZi4Dnqa4F_isCfImorKoHEqD8AhWCkIV17FwH0kv_hknNxBrPNMT162pm2qxwGyB3LGLwclH8tsqnpDEc7uh0ZiaPaK3hMde9y3I4heeemGe9Gpi4KQx_Xh34FQJXOzCezRwnfrsUxjNzt1uyecXxPIFDN7UF2eAAfRon5rSQvFARL_lw564Vz9yQQAs_53RXQW7lHolus7syxurYAStRQCbJg9tR8MSqgFThaEu1e15ZFOsv459-A0dCZNGps9PVAljsd9p6f_wGx-r1yzCDAtQ",
+        "e": "AQAB",
+        "kid": "X509-JWK2020",
+        "alg": "RS256",
+        "x5u": "https://lucasmorales18.github.io/id-acuratio-v2/x509CertificateChain.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:lucasmorales18.github.io:id-acuratio-v2#X509-JWK2020"
+  ]
 }
