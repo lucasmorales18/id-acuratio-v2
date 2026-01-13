@@ -11,7 +11,7 @@
       "controller": "did:web:lucasmorales18.github.io:id-acuratio-v2",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "xLlM2uvIFbe_2ToNpEZlQ-p9niefcQMpPRNrU3WGjpXhTO9WWkQRHIzDk9G69iZi4Dnqa4F_isCfImorKoHEqD8AhWCkIV17FwH0kv_hknNxBrPNMT162pm2qxwGyB3LGLwclH8tsqnpDEc7uh0ZiaPaK3hMde9y3I4heeemGe9Gpi4KQx_Xh34FQJXOzCezRwnfrsUxjNzt1uyecXxPIFDN7UF2eAAfRon5rSQvFARL_lw564Vz9yQQAs_53RXQW7lHolus7syxurYAStRQCbJg9tR8MSqgFThaEu1e15ZFOsv459-A0dCZNGps9PVAljsd9p6f_wGx-r1yzCDAtQ",
+        "n": "6Tk0O52GLwC359lR32jGhAB3_0FVF7EWZyPsQXOgjLDK5Z5M-pVlETvLrtwZcKd1HkxE2dF8vMrDfb57Q8RpVlLwiYptyrp-4_HwukoTFg0LcBcpvn8-WFhC509gYd1n0wvIwoAWIGT6TeOif9ls75kRREWQA2dNwhTysol9v9PXTRUWDVOeHhJ_aejuJ3GFXDcFwRJskayp6mNe5EFfRKornlb7ly-cCtkwlbrTcUnU7xwDpBAy7YUQVpMvrxKYvg_XA241g2SN5HfApB9nQC7wCf7g12RVZUei_k0sLcHbzqqwrSa5esBt_V6jVrej4TcHvQ4k47pBD-6DNlw3IQ",
         "e": "AQAB",
         "kid": "X509-JWK2020",
         "alg": "RS256",
